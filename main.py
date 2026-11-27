@@ -5,8 +5,14 @@ Writes one single-line joke about office life to /output/entry.txt.
 
 The joke turns on a real office detail (the shared fridge, a Jira ticket,
 the daily standup, HR) and lands its laugh in the last few words, as the
-bounty brief asks. The program is deterministic: it writes the same text
-on every run, uses no network and no dependency outside this repository.
+bounty brief asks. The joke was picked by a self-jury tournament over
+17 candidates in four device families (written rule broken, quoted number
+or named artifact, visible physical action, follow-up beat after the first
+punchline); the winner carries two of them at once — a named artifact
+("yoghurt from 2019", "Jira ticket") and a follow-up beat (the promotion,
+then mentoring the new interns). The program is deterministic: it writes
+the same text on every run, uses no network and no dependency outside this
+repository.
 """
 
 import os
